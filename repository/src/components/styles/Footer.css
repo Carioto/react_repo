@@ -1,9 +1,9 @@
-img {
+#foot img {
   max-width: 50px;
   transition: 0.2s;
   margin: 10px;
 }
-img:hover {
+#foot img:hover {
   transform: scale(1.5);
 }
 #foot {
