@@ -1,4 +1,4 @@
-function Portfolio(){
+function Artic(){
     return(
       <div>
 
@@ -6,4 +6,4 @@ function Portfolio(){
       </div>
     )
 }
-export default Portfolio;
+export default Artic;
