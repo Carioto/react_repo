@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
 
-
-
 function Contact(){
   const [fullName, setFullName] = useState('');
   const [emailAddress, setEmailAddress] = useState('');

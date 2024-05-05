@@ -1,4 +1,23 @@
 #proj img {
   max-width: 300px;
-  margin: 20px;
+  margin: 0 10px 30px 0;
+}
+#imabuild {
+  position: relative;
+  margin: auto;
+}
+#gitico {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+
+#liveico {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
 }
