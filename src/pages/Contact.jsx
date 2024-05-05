@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+import '../components/styles/Contact.css'
 
 function Contact(){
   const [fullName, setFullName] = useState('');
@@ -36,7 +37,7 @@ function Contact(){
     return(
       <div className='container text-center'>
         <h1>Contact me via Email</h1>
-        <form className='form' onSubmit={handleFormSubmit}>
+        <form className='form' onSubmit={handleFormSubmit} id="formed">
           <input
             value={fullName}
             name='fullName'
@@ -44,6 +45,7 @@ function Contact(){
             type='text'
             placeholder='Your Name'
           />
+          <br></br>
           <input
             value={emailAddress}
             name='emailAddress'
@@ -51,6 +53,7 @@ function Contact(){
             type='email'
             placeholder='Email'
           />
+          <br></br>
           <input
             value={comment}
             name='comment'
@@ -58,6 +61,7 @@ function Contact(){
             type='text'
             placeholder='Your Text'
           />
+          <br></br>
           <button type='submit'>
             Submit
           </button>

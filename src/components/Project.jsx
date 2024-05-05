@@ -33,5 +33,3 @@ function Project({projects}){
 }
 export default Project;
 
-// <a href="https://www.flaticon.com/free-icons/instagram-live" title="instagram live icons">Instagram live icons created by Freepik - Flaticon</a>
-// <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by riajulislam - Flaticon</a>

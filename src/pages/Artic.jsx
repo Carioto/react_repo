@@ -17,4 +17,3 @@ function Artic(){
 }
 export default Artic;
 
-// readme add: <a href="https://www.flaticon.com/free-icons/cv" title="CV icons">CV icons created by Freepik - Flaticon</a>
