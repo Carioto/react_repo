@@ -4,7 +4,7 @@ import projects from '../components/projects'
 function Portfolio(){
     return(
       <div>
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <Project projects={projects} />
       </div>
     );

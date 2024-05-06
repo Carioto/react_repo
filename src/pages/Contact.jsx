@@ -36,7 +36,7 @@ function Contact(){
 
     return(
       <div className='container text-center'>
-        <h1>Contact me via Email</h1>
+        <h2>Contact me via Email</h2>
         <form className='form' onSubmit={handleFormSubmit} id="formed">
           <input
             value={fullName}

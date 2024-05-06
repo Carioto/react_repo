@@ -2,6 +2,11 @@
   max-width: 80px;
 }
 h1 {
+  font-family: Geneva, Verdana, sans-serif;
+  color: #b8336a;
+}
+h2 {
   margin-top: 35px;
   margin-bottom: 25px;
+  color: #cfbaf0;
 }
