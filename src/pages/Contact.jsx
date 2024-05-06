@@ -44,6 +44,7 @@ function Contact(){
             onChange={handleInputChange}
             type='text'
             placeholder='Your Name'
+            required
           />
           <br></br>
           <input
@@ -52,6 +53,7 @@ function Contact(){
             onChange={handleInputChange}
             type='email'
             placeholder='Email'
+            required
           />
           <br></br>
           <input
@@ -60,6 +62,7 @@ function Contact(){
             onChange={handleInputChange}
             type='text'
             placeholder='Your Text'
+            required
           />
           <br></br>
           <button type='submit'>
