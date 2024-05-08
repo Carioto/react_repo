@@ -26,7 +26,7 @@ No installation is required. See below
 
 ## Usage
 
-This app is live. Visit the site at:
+This app is live. Visit the site at: https://gregarious-mochi-0b1999.netlify.app/
 
 ## License
 
