@@ -1,5 +1,13 @@
 const projects = [
+// set images to 300 x 180
+    {
+        id:5,
+        title:"PT Urgent Care Patient Management",
+        deployedUrl:"https://pizzatecaromanaplusone-1.onrender.com/",
+        githubUrl:"https://github.com/SergMalyshka/PizzatecaRomanaPlusOne",
+        image:"./PTUC.jpg",
 
+    },
     {
         id:6,
         title:"Social Network back end",

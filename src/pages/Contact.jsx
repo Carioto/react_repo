@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
 import '../components/styles/Contact.css'
+import  "@emailjs/browser"
+
 
 function Contact(){
   const [fullName, setFullName] = useState('');
@@ -27,6 +29,14 @@ function Contact(){
         return;
     }
         console.log(fullName,emailAddress,comment)
+
+        emailjs.send("service_po6zgoc","template_digtl4b",{
+          from_name: `${fullName}`,
+          to_name: "David",
+          message: comment,
+          email: `${emailAddress}`,
+          });
+
         setComment('');
         setFullName('');
         setEmailAddress('');
