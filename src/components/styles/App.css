@@ -1,9 +1,10 @@
 #root {
-  max-width: 1280px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  color: #90dbf4;
+  color: #b9d3ef;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 #body {
   background-color: #354f52;
@@ -11,4 +12,7 @@
 }
 #about img {
   max-width: 10%;
+}
+#about {
+  font-size: 24px;
 }

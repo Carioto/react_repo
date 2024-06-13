@@ -3,10 +3,12 @@
 }
 h1 {
   font-family: Geneva, Verdana, sans-serif;
-  color: #b8336a;
+  color: #f6d532;
+  font-weight: bolder;
+  font-size: 65px;
 }
 h2 {
   margin-top: 35px;
   margin-bottom: 25px;
-  color: #cfbaf0;
+  color: #f6d532;
 }

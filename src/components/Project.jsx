@@ -13,11 +13,11 @@ function Project({projects}){
            <p> {project.title} </p>
             <img src={project.image} alt={project.title} />
             <a href={project.githubUrl} target="_blank" rel="noreferrer" >
-              <img src='./github2.png' id="gitico" /> 
+              <img src='./github2.png' id="gitico" alt="GitHub Link"/> 
             </a>
             {project.deployedUrl && 
               <a href={project.deployedUrl} target="_blank" rel="noreferrer" >
-              <img src='./live.png' id="liveico" /> 
+              <img src='./live.png' id="liveico" alt="Link to Live Sight"/> 
             </a>
             }
           </div>

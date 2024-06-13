@@ -40,7 +40,7 @@ function Contact(){
         setComment('');
         setFullName('');
         setEmailAddress('');
-        setAnyMessage('Thanks!');
+        setAnyMessage('Message sent, Thanks!');
         return;
   }
 
