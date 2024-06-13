@@ -4,3 +4,15 @@
 .nav-link {
   color: rgb(239, 215, 184) !important;
 }
+@media screen and (max-width: 600px) {
+  .navdis {
+    max-width: 38%;
+    margin: auto;
+  }
+  .nav-link {
+    color: rgb(239, 215, 184) !important;
+  }
+  .nav-tabs > li {
+    width: 100%;
+  }
+}

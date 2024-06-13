@@ -8,11 +8,18 @@
 }
 #body {
   background-color: #354f52;
-  font-size: large;
 }
 #about img {
-  max-width: 10%;
+  max-width: 15%;
 }
 #about {
   font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+  #about {
+    font-size: 18px;
+  }
+  #about img {
+    max-width: 25%;
+  }
 }
