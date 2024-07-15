@@ -8,7 +8,7 @@ function Artic(){
     return(
       <div id="resumearea">
        <h2>Download my Resume</h2>
-       <a href="./Resume.docx" download>
+       <a href="./Resume.pdf" download>
         <img src="./cv.png" alt="resume download"/>
         </a> 
 
