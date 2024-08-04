@@ -19,7 +19,7 @@ const projects = [
     {
         id:7,
         title:"Pizzateca Romana Point of Sale System",
-        deployedUrl:"https://stormy-journey-39722-b2e17c23bcea.herokuapp.com/",
+        deployedUrl:"https://stormy-journey-pizzatecca-pos-e79208e5a885.herokuapp.com/",
         githubUrl:"https://github.com/SergMalyshka/Pizzoteca-Romana",
         image:"./pizzateca.jpg",
 
