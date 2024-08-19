@@ -21,3 +21,19 @@
   width: 40px;
   height: 40px;
 }
+@media screen and (max-width: 768px) {
+  #gitico {
+    left: 27%;
+  }
+  #liveico {
+    right: 25%;
+  }
+}
+@media screen and (max-width: 433px) {
+  #gitico {
+    left: 5%;
+  }
+  #liveico {
+    right: 6%;
+  }
+}

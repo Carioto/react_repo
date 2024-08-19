@@ -27,7 +27,7 @@ const projects = [
     {
         id:8,
         title:"The Tech Blog",
-        deployedUrl:"https://polar-waters-90180-26f327d94b0b.herokuapp.com/",
+        deployedUrl:"https://polar-waters-the-tech-blog-32c947c30284.herokuapp.com/",
         githubUrl:"https://github.com/Carioto/Tech_Blog",
         image:"./tech_blog.jpg",
 
