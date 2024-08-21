@@ -9,7 +9,7 @@ return (
             <img src={"/GitHub.png"} alt="GitHub"/>
         </a>
       
-        <a className=".img-fluid" href="www.linkedin.com/in/david-carioto">
+        <a className=".img-fluid" href="https://www.linkedin.com/in/david-carioto">
             <img src={"/Linkedin.png"} alt="Linkedin"/>
         </a>
       
