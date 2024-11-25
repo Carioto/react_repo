@@ -9,3 +9,62 @@
 #foot {
   margin-top: 50px;
 }
+
+.gitImg {
+  position: relative;
+  animation-name: gitImg;
+  animation-duration: 4s;
+}
+.linkImg {
+  position: relative;
+  animation-name: linkImg;
+  animation-duration: 4s;
+}
+
+@keyframes gitImg {
+  /* 0% {
+    left: -350px;
+  }
+
+  25% {
+    left: -200px;
+  }
+  50% {
+    left: -50px;
+  }
+  75% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  } */
+  from {
+    left: 450px;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes linkImg {
+  /* 0% {
+    right: -350px;
+  }
+  25% {
+    right: -200px;
+  }
+  50% {
+    right: -50px;
+  }
+  75% {
+    right: 10px;
+  }
+  100% {
+    right: 0px;
+  } */
+  from {
+    left: -450px;
+  }
+  to {
+    left: 0;
+  }
+}
