@@ -1,8 +1,10 @@
+import './styles/Header.css'
+
 
 function Header() {
     return(
      <div>
-      <h1>
+      <h1 id='saymyname'>
         <span id='dmove'>D</span>
         <span id='amove'>a</span>
         <span id='vmove'>v</span>

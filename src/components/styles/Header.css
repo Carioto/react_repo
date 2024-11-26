@@ -1,0 +1,88 @@
+#dmove {
+  position: relative;
+  animation-name: dmove;
+  animation-duration: 4s;
+}
+@keyframes dmove {
+  from {
+    left: 550px;
+  }
+  to {
+    left: 0;
+  }
+}
+#rmove,
+#omove {
+  position: relative;
+  animation-name: rmove;
+  animation-duration: 4s;
+}
+@keyframes rmove {
+  from {
+    bottom: 550px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+#vmove {
+  position: relative;
+  animation-name: vmove;
+  animation-duration: 4s;
+}
+@keyframes vmove {
+  from {
+    left: -150px;
+  }
+  to {
+    left: 0;
+  }
+}
+#imove,
+#tmove {
+  position: relative;
+  animation-name: imove;
+  animation-duration: 4s;
+}
+@keyframes imove {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+#amove {
+  position: relative;
+  animation-name: amove;
+  animation-duration: 4s;
+}
+@keyframes amove {
+  from {
+    left: -350px;
+  }
+  to {
+    left: 0;
+  }
+}
+#cmove {
+  position: relative;
+  animation-name: cmove;
+  animation-duration: 4s;
+}
+@keyframes cmove {
+  from {
+    left: 350px;
+  }
+  to {
+    left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  #saymyname {
+    font-size: 2rem;
+  }
+  #headP {
+    font-size: 0.85rem;
+  }
+}

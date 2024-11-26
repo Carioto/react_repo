@@ -1,18 +1,29 @@
 .nav-link.active {
   color: rgb(31, 101, 232) !important;
+  background-color: rgb(18, 18, 18) !important;
 }
 .nav-link {
   color: rgb(239, 215, 184) !important;
 }
 @media screen and (max-width: 600px) {
+  #navbar {
+    font-size: 0.85rem;
+    position: sticky;
+    top: 0;
+    background: rgb(18, 18, 18);
+    padding: 10px 16px;
+  }
   .navdis {
-    max-width: 38%;
     margin: auto;
   }
   .nav-link {
     color: rgb(239, 215, 184) !important;
   }
+  .nav {
+    flex-wrap: nowrap !important;
+  }
   .nav-tabs > li {
     width: 100%;
+    --bs-nav-tabs-border-width: 0;
   }
 }
