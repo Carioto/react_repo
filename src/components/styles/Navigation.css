@@ -21,9 +21,9 @@
   }
   .nav {
     flex-wrap: nowrap !important;
+    --bs-nav-link-padding-x: 0.65rem !important;
   }
   .nav-tabs > li {
-    width: 100%;
     --bs-nav-tabs-border-width: 0;
   }
 }
