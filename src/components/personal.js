@@ -1,6 +1,14 @@
 const personal = [
     // set images to 300 x 180
         {
+            id:6,
+            title:"Coffee Shop Order Taker - Web Based",
+            deployedUrl:"https://coffeeshop-817c1f207ff6.herokuapp.com/pos/",
+            githubUrl:"https://github.com/Carioto/coffeeshop_web",
+            image:"./coffeeshop_web.jpg",
+    
+        },
+        {
             id:7,
             title:"Personal Bookmarks Holder",
             deployedUrl:"https://bookmark-holder.onrender.com/",
