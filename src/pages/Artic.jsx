@@ -15,6 +15,9 @@ function Artic(){
         <div className="container text-center" id="skills">
       <h2>Technical Skills</h2>
          <div className='d-md-inline-flex flex-wrap justify-content-center'>
+          <span>Python -&nbsp;</span>
+          <span>Django -&nbsp;</span>
+          <span>Python -&nbsp;</span>
           <span>React -&nbsp;</span>
           <span>Vite -&nbsp;</span>
           <span>HTML -&nbsp;</span>
@@ -36,8 +39,6 @@ function Artic(){
           <span>dotenv -&nbsp;</span>
           <span>Bcrypt -&nbsp;</span>
           <span>JQuery -&nbsp;</span>
-          <span>Progressive Web Apps -&nbsp;</span>
-          <span>Webpack</span>
       </div>
       </div>
       </div>
