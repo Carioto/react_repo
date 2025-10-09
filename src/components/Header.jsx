@@ -18,7 +18,6 @@ function Header() {
         <span id='tmove'>t</span>
         <span id='omove'>o</span>
         </h1>
-      <p id='headP'>&nbsp;&nbsp; --Full Stack Web Developer in Pittsburgh, Pennsylvania</p>
      </div>
     )
 }
