@@ -1,12 +1,34 @@
 const personal = [
     // set images to 300 x 180
+    // use imageresizer.com
+        {
+            id:3,
+            title:"Family Photo App",
+            deployedUrl:"https://photoapp-phfm.onrender.com/accounts/login/",
+            githubUrl:"https://github.com/Carioto/photoapp",
+            image:"./photo_album.png",
+            login: {
+              username: "demoUser",
+              password: "demoPass"
+            }
+        },
+        {
+            id:4,
+            title:"Employee Attendance Tracking",
+            deployedUrl:"https://emp-attendance-d47a9af5aa54.herokuapp.com/login/",
+            githubUrl:"https://github.com/Carioto/employee_attendance",
+            image:"./employee_attendance.png",
+            login: {
+              username: "demoGM",
+              password: "demoPass"
+            }
+        },
         {
             id:5,
-            title:"Employee Attendance Tracking",
-            deployedUrl:"https://emp-attendance-d47a9af5aa54.herokuapp.com/",
-            githubUrl:"https://github.com/Carioto/employee_attendance",
-            image:"./empatt.jpg",
-    
+            title:"Label Printing App",
+            deployedUrl:"",
+            githubUrl:"",
+            image:"./label_printing_app.png",
         },
         {
             id:6,

@@ -10,7 +10,11 @@ function Project({projects}){
               // eslint-disable-next-line react/prop-types
          .map((project) => (
           <div className="" key={project.id} id="imabuild">
-           <p> {project.title} </p>
+           <p> {project.title} <br />
+            {project.login && (<p>User: {project.login.username}  Pass: {project.login.password}
+              </p>
+            )}
+            
             <img src={project.image} alt={project.title} />
             <a href={project.githubUrl} target="_blank" rel="noreferrer" >
               <img src='./github2.png' id="gitico" alt="GitHub Link"/> 
@@ -20,6 +24,7 @@ function Project({projects}){
               <img src='./live.png' id="liveico" alt="Link to Live Sight"/> 
             </a>
             }
+            </p>
           </div>
               )
         )}
