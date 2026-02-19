@@ -27,7 +27,7 @@ const personal = [
             id:5,
             title:"Label Printing App",
             deployedUrl:"",
-            githubUrl:"",
+            githubUrl:"https://github.com/Carioto/label_app",
             image:"./label_printing_app.png",
         },
         {
